@@ -13,11 +13,11 @@ const Inbox = () => {
   return (
     <div
       id="inbox"
-      className={`fixed right-[130px] bottom-[120px] px-[34px] py-5 rounded-md w-[550px] h-[550px] bg-white transition-all duration-500 ease-linear transform ${
+      className={`fixed right-[130px] bottom-[120px] px-8 py-6 rounded-md w-[550px] h-[550px] bg-white transition-all duration-500 ease-linear transform ${
         inboxOpen ? "block" : "hidden"
       }`}
     >
-      <div className="relative mb-5">
+      <div className="relative mb-[22px]">
         <input
           type="text"
           className="w-full border border-[#828282] rounded-md focus:outline-none placeholder:text-primaryblack px-10"
@@ -38,7 +38,7 @@ const Inbox = () => {
         <div className="divide-y-2 divide-[#828282]">
           <Link
             to={"/inbox/detail"}
-            className="pb-5 flex justify-between items-center"
+            className="pb-[22px] flex justify-between items-center"
           >
             <div className="flex items-center gap-x-10">
               <div className="relative ">
