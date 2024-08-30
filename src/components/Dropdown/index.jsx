@@ -27,7 +27,7 @@ const Dropdown = ({ option, setOption }) => {
         </figure>
       </button>
       {isOpen && (
-        <div className="absolute top-full my-2 py-2 px-4 border border-primaryblack rounded-md w-[160px] divide-y divide-primaryblack">
+        <div className="absolute top-full my-2 py-2 px-4 bg-white z-20 border border-primaryblack rounded-md w-[160px] divide-y divide-primaryblack">
           {optionals.map((option, id) => {
             return (
               <button

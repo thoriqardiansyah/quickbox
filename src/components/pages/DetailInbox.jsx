@@ -45,7 +45,7 @@ const DetailInbox = () => {
   };
 
   return (
-    <section className="relative top-8 left-[530px] w-[550px] h-[550px] bg-white rounded-md">
+    <section className="fixed right-[130px] bottom-[120px] w-[550px] h-[550px] bg-white rounded-md">
       {/* Header section */}
       <div className="flex justify-between items-center px-5 py-2 border-b border-primaryblack">
         <div className="flex gap-x-5 items-center">
